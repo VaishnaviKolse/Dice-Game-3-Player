@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Update dice image
             diceImage.src = `images/dice${diceRoll}.png`;
+            
 
             // Update score
             scoreElement.textContent = diceRoll;
